@@ -59,7 +59,7 @@ class DashBoard extends React.Component {
                             <div className='upload-box'>
                                 <div className='excel-drop-box'>
                                     <img src={Excel} alt='Excel' />
-                                    <p>Drop your excel sheet here or <a href='#'>browse</a></p>
+                                    <p>Drop your excel sheet here or <a href='https://www.google.com/'>browse</a></p>
                                 </div>
                                 <button type='upload' className='upload-button' onClick={this.handleUploadClick}>
                                     <i className="fa-solid fa-arrow-up-from-bracket"></i>
