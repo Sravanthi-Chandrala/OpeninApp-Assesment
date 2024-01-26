@@ -1,0 +1,80 @@
+.sidebar-div{
+    Width: 218px;
+    Height: 1047px;
+    background-color: white;
+    color: white;
+    margin: 0vh 0 0 0vw;
+}
+.side-bar-image{   
+    position: relative;
+    top: 45px;
+    left: -20px;
+}
+.side-bar-board{
+    position: absolute;
+    top: 16px;
+    left: 120px;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 10vh;
+    margin-top: 20px;
+    color: black; 
+}
+.sidebar-elements{
+    list-style: none;
+    margin-top: 80px;
+    margin-left: -55px;
+}
+.sidebar-elements>li{
+    margin-bottom: 7vh;
+}
+.sidebar-elements>li:hover{
+    color: #605BFF;
+}
+#dashboard{
+    margin-left: 8px;
+}
+#dashboard-icon{
+    margin-left: 25px;
+}
+#notification-box{
+    margin-left: 9px;
+}
+#notification-icon{
+    margin-left: 20px;
+}
+#schedule-icon{
+    margin-left: 10px;
+}
+.sibe-bar-icon{
+    font-size: 30px;
+    color: #9A9AA9;
+    margin-left: -10px;
+}
+.side-bar-link{
+    text-decoration: none;
+    color: #9A9AA9;
+    font-size: 1.3vw;
+    margin: 0 0 0 0.7vw;
+}
+.side-bar-link:hover{
+    color: #605BFF;
+    font-size: 1.5vw;
+}
+.side-bar-help-div{
+    margin-top: 40vh;
+    list-style: none;
+}
+.side-bar-help-div>li{
+    margin-top: 1.5vh;
+}
+.side-bar-help{
+    color: rgba(255, 255, 255,0.8);
+    font-size: 1.1vw;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+.side-bar-help:hover{
+    color: white;
+    font-size: 1.3vw;
+}

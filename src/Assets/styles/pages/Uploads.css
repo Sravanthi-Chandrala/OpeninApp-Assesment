@@ -1,0 +1,185 @@
+.modal-open{
+    filter: blur(2px);
+    z-index: -999;
+}
+.dashboard-div{
+    height: 100vh;
+    display: flex;
+    background-color: rgba(121, 153, 212,0.1);
+    /* position: relative; */
+}
+.dashboard-content{
+    margin-left: 3.5vw;
+}
+
+/* --------------------------------- Dashboard-Header ------------------------------- */
+.dashboard-header{
+    margin-top: 3vh;
+    display: flex;
+    position: relative;
+}
+.dashboard-header-name{
+    margin-left: 30px;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.dashboard-header i{
+    font-size: 2.0vw;
+    cursor: pointer;
+    color: #000000;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+/*------------------------------------------------------upload-box-------------------------------------------------------------*/
+.upload-container {
+    position: relative;
+}
+
+.upload-box {
+    width: 596px;
+    height: 367px;
+    border-radius: 8px;
+  
+}
+
+.excel-drop-box {
+    width: 564px;
+    height: 258px;
+    border-radius: 8px;
+    border: 1px dashed #000000;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.excel-drop-box > img {
+    margin-bottom: 3vh;
+    margin-top: 30px;
+}
+
+.excel-drop-box > a {
+    text-decoration: none;
+}
+
+.upload-button {
+    position: absolute;
+    top: 520px;
+    left: 300px;
+    width: 570px;
+    height: 56px;
+    padding: 8px 16px; /* Fixed syntax error */
+    border-radius: 8px;
+    background-color: #605BFF;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 8px; Additional padding on the right */
+}
+.up-container-box{
+    background-color: rgba(121, 153, 212,0.1);
+    margin-top: -25px;
+    text-align: left;
+}
+.table-box {
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 1000px;
+    height: 697px;
+    border-radius: 8px;
+    margin-left: 290px;
+    padding: 20px 10px 0 40px;
+}
+
+.uploads-content {
+    text-align: left;
+    margin-left: 250px;
+    padding-top: 50px;
+    width: 133px;
+    height: 32px;
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.table-head {
+    margin-left: -100px;
+    padding: 15px;
+    width: 1034px;
+    height: 58px;
+    border-radius: 8px;
+    gap: 54px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.table-head > th {
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+}
+
+.table-head + .table-head {
+    margin-top: 10px;
+}
+.table-data {
+    margin-left: -100px;
+    padding: 15px;
+    width: 1034px;
+    height: 58px;
+    border-radius: 8px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.table-data > td {
+    padding: 12px;
+    text-align: center;  
+    background-color: white; 
+}
+
+.table-data > tr + tr {
+    margin-top: 10px;
+}
+
+.skills-list {
+    display: flex;
+    gap: 8px;
+}
+
+.skills-list span {
+    background-color: blue;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-list span i {
+    margin-left: 5px;
+    cursor: pointer;
+}
+#profile-photo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 17px;
+    left: 1050px;
+    border-radius: 50px;
+}
